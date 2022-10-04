@@ -65,10 +65,11 @@ footer="""<style>
 position: fixed;
 left: 0;
 bottom: 0;
+height: 25px;
 width: 100%;
-background-color: dark-grey;
-color: white;
-text-align: right;
+background-color: black;
+color: grey;
+text-align: center;
 }
 </style>
 <div class="footer">
