@@ -60,4 +60,19 @@ with open('json_data.json') as json_file:
         b.check_balance(acc,pss)
 
 
-
+footer="""<style>
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: dark-grey;
+color: white;
+text-align: right;
+}
+</style>
+<div class="footer">
+<p>Made with  ❤  by Piyush Dewangan</p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
